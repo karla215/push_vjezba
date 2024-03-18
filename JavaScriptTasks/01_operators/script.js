@@ -24,3 +24,8 @@ nullish = "" ?? 20;
 console.log(nullish);//empty
 nullish = null ?? 20;
 console.log(nullish);//20
+
+// || returns first truthy value or last falsy
+let y;
+y = null || 0 || " " || undefined;
+console.log(y);//undefined
