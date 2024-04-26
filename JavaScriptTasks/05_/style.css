@@ -1,0 +1,23 @@
+#todo-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+  }
+  
+  #todo-list > div {
+    border: 1px #666 solid;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gotov {
+    text-decoration: line-through;
+    background-color: maroon;
+    color: #fff;
+  }
